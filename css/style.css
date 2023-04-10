@@ -133,14 +133,13 @@ main {
 .featured-plants-img {
   display: flex;
   flex-wrap: wrap;
-  flex-grow: 1;
   align-items: center;
   text-align: center;
   margin-top: 24px;
 }
 
-.plant-images {
-
+.plant-images:not(:last-child) {
+  margin-right: 20px;
 }
 
 .img-plant {
@@ -151,9 +150,6 @@ main {
 
 .plant-img-background {
   background-color: #f3f4f6;
-}
-.plant-img-background:not(:last-child) {
-  margin-right: 16.6px;
 }
 
 /* /IMAGES */

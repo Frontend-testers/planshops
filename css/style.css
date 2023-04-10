@@ -138,8 +138,16 @@ main {
   margin-top: 24px;
 }
 
+.plant-images {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
 .plant-images:not(:last-child) {
   margin-right: 20px;
+}
+.strong {
+  font-weight: 600;
 }
 
 .img-plant {

@@ -19,8 +19,8 @@ body{
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "Arial", sans-serif;
-  background-color:#e5e5e5;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  background-color:#FFFF;
   color: #222;
 }
 
@@ -42,7 +42,118 @@ margin-left: auto;
 }
 
 /* MAIN-CONTENT */
-
+main {
+  padding-top: 140px;
+}
 .main-content{
   flex-grow: 1;
 }
+
+/* FEATURES */
+
+.subcontainer {
+  padding-left: 106px;
+  padding-right: 106px;
+}
+
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 1168px;
+}
+
+.feature-list-item {
+  padding-top: 22px;
+  padding-right: 16px;
+  padding-bottom: 21px;
+  padding-left: 16px;
+  width: 268px;
+  border: 1px solid #e0e0e0;
+}
+.feature-list-item:not(:first-child) {
+  margin-left: 32px;
+}
+
+.list-item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.list-item-img {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.list-item-img-description {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #156963;
+}
+
+.list-item-text {
+  font-size: 10px;
+  line-height: 16px;
+  font-weight: 400;
+  width: 236px;
+  color: #2c1500;
+}
+/* /FEATURES */
+
+
+/* FEATURED PLANTS */
+.heading-choicebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.price-selection {
+  text-align: center;
+  border-color: #e0e0e0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: -20px;
+}
+.price-selection:active {
+  border-color: #e0e0e0;
+}
+.price-selection:hover {
+  opacity: 0.8;
+}
+/* IMAGES */
+
+.featured-plants-img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-items: center;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.plant-images {
+
+}
+
+.img-plant {
+  width: 217px;
+  height: 217px;
+  display: inline-block;
+}
+
+.plant-img-background {
+  background-color: #f3f4f6;
+}
+.plant-img-background:not(:last-child) {
+  margin-right: 16.6px;
+}
+
+/* /IMAGES */

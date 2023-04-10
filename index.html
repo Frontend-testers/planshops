@@ -5,13 +5,136 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project (Plant Shop)</title>
+
+  <!-- GOOGLE-FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
   <!-- STYLES CSS LINKS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<!-- FEATURES -->
+  <main>
+    <section>
+      <div class="container subcontainer">
+        <ul class="feature-list">
 
+          <li class="feature-list-item">
+            <div class="list-item-container">
+              <img class="list-item-img" src="/image/icons/icon-truck.svg" alt="" width="48" height="48">
+              <div class="list-item-img-description">
+                Fast <br>
+                Delivery
+              </div>
+            </div>
+            <p class="list-item-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </li>
 
+          <li class="feature-list-item">
+            <div class="list-item-container">
+              <img class="list-item-img" src="/image/icons/icon-headphone.svg" alt="" width="48"
+              height="48">
+              <div class="list-item-img-description">
+                Great Customer <br>Service
+              </div>
+            </div>
+            <p class="list-item-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </li>
+
+          <li class="feature-list-item">
+            <div class="list-item-container">
+              <img class="list-item-img" src="/image/icons/icon-plant.svg" alt="" width="48" height="48">
+              <div class="list-item-img-description">
+                Original <br>Plants
+              </div>
+            </div>
+            <p class="list-item-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </li>
+
+          <li class="feature-list-item">
+            <div class="list-item-container">
+              <img class="list-item-img" src="/image/icons/icon-dollar.svg" alt="" width="48" height="48">
+              <div class="list-item-img-description">
+                Affordable <br>Price
+              </div>
+            </div>
+            <p class="list-item-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            </p>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+    <!-- /FEATURE -->
+
+    <!-- FEATURED PLANTS -->
+    <section class="featured-plants">
+      <div class="container subcontainer">
+        <div class="heading-choicebar">
+          <h3>Featured Plants</h3>
+          <select class="price-selection" name="pricing" id="pricing">
+            <option value="Cheaper first">Cheaper first</option>
+            <option value="More expensive first">More expensive first</option>
+            <option value="Home decoration">Home decoration</option>
+          </select>
+        </div>
+
+        <!-- IMAGES -->
+
+        <div class="featured-plants-img">
+
+          <div class="plant-images">
+            <div class="plant-img-background">
+              <img class="img-plant" src="/image/featured-plant-1.png" alt="kaktus plants" width="217" height="217" srcset="/image/featured-plant-1.png 1x, /image/featured-plant-1@2x.png 2x">
+            </div>
+            <p>Kaktus Plants <strong><br>IDR 85.000</strong></p>
+          </div>
+
+          <div class="plant-images">
+            <div class="plant-img-background">
+              <img class="img-plant" src="/image/featured-plant-2.png" alt="Landak Plants" width="217" height="217" srcset="/image/featured-plant-2.png 1x, /image/featured-plant-2@2x.png 2x">
+            </div>
+            <p>Landak Plants<strong><br>IDR 105.000</strong></p>
+          </div>
+
+          <div class="plant-images">
+            <div class="plant-img-background">
+              <img class="img-plant" src="/image/featured-plant-3.png" alt="Kecubung Plants" width="217" height="217" srcset="/image/featured-plant-3.png 1x, /image/featured-plant-3@2x.png 2x">
+            </div>
+            <p>Kecubung Plants <strong><br>IDR 85.000</strong></p>
+          </div>
+
+          <div class="plant-images">
+            <div class="plant-img-background">
+              <img class="img-plant" src="/image/featured-plant-4.png" alt="Kecubung Plants" width="217" height="217" srcset="/image/featured-plant-4.png 1x, /image/featured-plant-4@2x.png 2x">
+            </div>
+            <p>Kecubung Plants <strong><br>IDR 85.000</strong></p>
+          </div>
+
+          <div class="plant-images">
+            <div class="plant-img-background">
+              <img class="img-plant" src="/image/featured-plant-5.png" alt="Kecubung Plants" width="217" height="217" srcset="/image/featured-plant-5.png 1x, /image/featured-plant-5@2x.png 2x">
+            </div>
+            <p>Kecubung Plants <strong><br>IDR 85.000</strong></p>
+          </div>
+
+        </div>
+
+        <!-- /IMAGES -->
+
+      </div>
+    </section>
+  </main>
 
 
   <script src="js/main.js"></script>

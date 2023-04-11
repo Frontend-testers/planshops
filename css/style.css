@@ -30,6 +30,10 @@ img{
   height: auto;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* CONTAINER STYLE */
 
 .container{
@@ -48,6 +52,131 @@ main {
 .main-content{
   flex-grow: 1;
 }
+
+/* HEADER */
+.header-container {
+  display: flex;
+}
+
+.header-subcontainer {
+  margin-left: 77px;
+}
+
+.header-nav-bar {
+  list-style: none;
+  display: flex;
+  margin-left: 175px;
+  align-items: center;
+}
+
+.list-item {
+  margin-right: 43px;
+}
+.button-sign-up {
+  padding: 8px 33px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #156963;
+  background-color: #fff;
+  border-color: transparent;
+}
+.button-sign-in {
+  padding: 8px 33px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color:#fff;
+  background-color: #156963;
+}
+
+.material-symbols-outlined {
+  color: #000;
+}
+.header-text {
+  margin-top: 110px;
+}
+.header-text-heading {
+  font-weight: 500;
+  font-size: 68px;
+  line-height: 83px;
+  color: #156963;
+}
+.header-text-text {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2C1500;
+  opacity: 0.8;
+  width: 493px;
+  margin-top: 24px;
+}
+.header-text-nav-button {
+  margin: 0;
+  padding: 0;
+  margin-top: 110px;
+}
+.header-nav-button {
+  border-color: transparent;
+  padding: 41px 39px;
+  text-align: center;
+  align-items: center;
+  background-color: #156963;
+}
+.header-nav-button-2 {
+  border-color: transparent;
+  padding: 40px 38px;
+  text-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+.header-nav-vector {
+  color:#000;
+  margin-right: 8px;
+}
+.header-nav-vector-1 {
+  margin-left: 8px;
+}
+.button-text {
+  padding-bottom: 15px;
+}
+.header-nav-button-inner {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f2f2f2;
+  align-items: center;
+  text-align: center;
+}
+.header-nav-button-inner-2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f2f2f2;
+  opacity: 0.8;
+  align-items: center;
+  text-align: center;
+}
+h3 {
+
+}
+
+.plant-name-1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #156963;
+}
+.plant-name-2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #fff;
+}
+
+/* / HEADER */
 
 /* FEATURES */
 

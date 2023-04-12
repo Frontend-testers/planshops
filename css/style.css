@@ -61,7 +61,15 @@ main {
 .header-subcontainer {
   margin-left: 77px;
 }
-
+.header-background {
+  width: 608px;
+  height: 740px;
+  background-image:url(/image/pexels-cottonbro.png);
+}
+.header-background-img {
+  margin-top: 40px;
+  margin-left: 56px;
+}
 .header-nav-bar {
   list-style: none;
   display: flex;
